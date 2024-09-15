@@ -1,0 +1,51 @@
+[data-id="s1"] {
+   animation: bounce 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate,
+              glow 1.5s ease-in-out infinite alternate;
+   font-family: "Luckiest Guy", cursive;
+   font-size: 1.5em;
+   color: white;
+   text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+     0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+     0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+     -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+}
+
+[data-id="s2"] {
+   animation: bounce 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate,
+              glow 1.5s 0.2s ease-in-out infinite alternate,
+              colorChange 2s infinite alternate;
+   font-family: "Luckiest Guy", cursive;
+   font-size: 1.5em;
+   color: rgba(255, 255, 255, 0.87);
+   text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+     0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+     0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+     -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.75), 0 0 40px rgba(255, 255, 255, 0.75);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.758), 0 0 40px rgba(255, 255, 255, 0.8), 0 0 50px rgba(255, 255, 255, 0.6);
+  }
+}
+
+@keyframes colorChange {
+  from {
+    color: rgba(255, 255, 255, 0.781);
+  }
+  to {
+    color: rgb(231, 112, 112);
+  }
+}

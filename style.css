@@ -1,0 +1,69 @@
+
+[data-testid="stHeader"]{
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(15px);
+     color: white;
+ }
+ 
+ [data-testid="block-container"] {
+     background: linear-gradient(rgb(255 255 255 / 0%) 0, rgb(0,0,0) 484px, #000 100%);
+     backdrop-filter: blur(10px);
+     color: white;
+ }
+ [data-testid="StyledLinkIconContainer"]{
+     color: white;
+ }
+ [data-testid="baseButton-header"]{
+     color: white;
+ }
+ [data-testid="baseButton-headerNoPadding"]{
+     color: white;
+ }
+ 
+ [data-testid="stSidebarNavItems"] span{
+     color: white;
+ }
+ [data-testid="stSidebar"]{
+    /*background: linear-gradient(rgb(0 0 0 / 70%) 0, rgb(0 0 0 / 33%) 500px, rgba(0,0,0,0)771px, rgba(0,0,0,0) 100%);*/
+     background-color: rgba(0,0,0,0);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    color: #446;
+ }
+ [data-testid="stSidebarNavItems"]{
+ 
+     backdrop-filter: blur(10px);
+ }
+ [data-testid="stSidebarNavLink"]:hover{
+     background-color: rgba(255,255,255, 0.1);
+ }
+ [data-testid="stSidebarNavLink"]{
+     color: black;
+ }
+ .st-emotion-cache-nziaof, .st-emotion-cache-nziaof:hover {
+          background-color: rgba(0 ,87 ,255, 0.3);
+ }
+ [data-testid="stMetric"]{
+     border-left: 4px solid rgb(255, 126, 216);
+     
+     border-radius: 2px;
+     box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
+     padding: 15px 0px;
+     padding-left: 10px;
+     backdrop-filter: blur(10px);
+ }
+ 
+ 
+ [class="css-e2y4gp e1tzin5v0"]{
+    /* margin: 10px; */
+    background: linear-gradient(180deg, #fbfbfb9b, #ffffff66, #ffffff92);
+    padding: 25px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+ }
+ [class="css-ocqkz7 e1tzin5v4"]{
+    margin-bottom: 20px
+ }
